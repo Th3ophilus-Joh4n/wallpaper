@@ -1,0 +1,54 @@
+body {
+  background-image: linear-gradient(rgb(255, 128, 128), cyan, yellow);
+}
+
+h1 {
+  color: purple;
+  font-family: cursive;
+  border-top: 4px solid;
+  text-align: center;
+  font-weight: 200;
+}
+
+img {
+  width: 450px;
+  height: 350px;
+  display: flex;
+  border-radius: 20%;
+  text-align: center;
+  border: 2px solid black;
+  object-fit: cover;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 105vh;
+}
+
+button {
+  padding: 10px;
+  background-color: rgb(20, 182, 20);
+  color: white;
+  border: 2px solid rgb(49, 49, 196);
+  font-size: 100%;
+  font-weight: bolder;
+}
+
+button:hover {
+  background-color: rgb(49, 49, 196);
+  transition: 00.1s;
+  text-decoration: underline;
+  color: rgb(255, 123, 222);
+  font-weight: bolder;
+}
+
+p {
+  font-size: 110;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200%;
+  color: rgb(19, 85, 85);
+  text-align: center;
+}
